@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { ResizableModule } from 'angular-resizable-element';
+import { StackBlitzMetaService } from '../../../apps/app/src/app/core/services/stackblitz-meta.service';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
@@ -34,6 +35,7 @@ import {MatSelectModule} from '@angular/material/select';
     EnviromentComponent,
   ],
   providers: [
+    StackBlitzMetaService,
   ],
   bootstrap: [
   ]
